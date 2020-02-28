@@ -12,7 +12,7 @@ pip install --upgrade pip wheel setuptools six
 
 # Step 3
 pip install nodeenv
-nodeenv -p --prebuilt
+nodeenv -p --prebuilt --node=12.11.1
 source ~/.virtualenv/GRR/bin/activate
 
 # Step 4
