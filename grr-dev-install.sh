@@ -1,3 +1,5 @@
+sudo apt-get update
+
 # Step 1
 git clone https://github.com/google/grr
 cd grr/
@@ -14,7 +16,7 @@ nodeenv -p --prebuilt
 source ~/.virtualenv/GRR/bin/activate
 
 # Step 4
-sudo apt-get install libssl-dev python-dev python-pip wget openjdk-8-jdk zip dh-systemd libmysqlclient-dev -y
+sudo apt-get install libssl-dev python3-dev python3-pip wget openjdk-8-jdk zip dh-systemd libmysqlclient-dev -y
 
 # Step 5
 pip install -e grr/proto
