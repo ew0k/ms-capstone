@@ -3,7 +3,7 @@ git clone https://github.com/google/grr
 cd grr/
 
 # Step 2
-sudo apt-get install virtualenv -y
+apt-get install virtualenv -y
 virtualenv ~/.virtualenv/GRR --python=python3
 source ~/.virtualenv/GRR/bin/activate
 pip install --upgrade pip wheel setuptools six
@@ -14,7 +14,7 @@ nodeenv -p --prebuilt
 source ~/.virtualenv/GRR/bin/activate
 
 # Step 4
-sudo apt-get install libssl-dev python-dev python-pip wget openjdk-8-jdk zip dh-systemd libmysqlclient-dev -y
+apt-get install libssl-dev python-dev python-pip wget openjdk-8-jdk zip dh-systemd libmysqlclient-dev -y
 
 # Step 5
 pip install -e grr/proto
