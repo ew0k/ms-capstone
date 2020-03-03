@@ -1,7 +1,7 @@
 sudo apt-get update
 
 # Step 1
-git clone https://github.com/google/grr
+git clone https://github.com/ew0k/grr.git
 cd grr/
 
 # Step 2
