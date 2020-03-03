@@ -36,3 +36,13 @@ sudo apt-get install mysql-server -y
 
 # Step 9
 grr_config_updater initialize
+
+## MySQL Commands
+# sudo mysql -u root -p
+# CREATE DATABASE grr;
+# CREATE USER 'grr'@'localhost' IDENTIFIED BY 'grr';
+# GRANT ALL PRIVILEGES ON *.* TO 'grr'@'localhost';
+# FLUSH PRIVILEGES;
+
+## See ports running on Ubuntu Host
+# sudo lsof -i -P -n
