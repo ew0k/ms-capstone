@@ -1,0 +1,154 @@
+{
+    "Payload 1": {
+        "version": "1.1",
+        "host": "dev",
+        "short_message": "dev Netstat From GRR",
+        "full_message": {
+            "family": "INET",
+            "type": "SOCK_STREAM",
+            "localAddress": {
+                "ip": "127.0.0.1",
+                "port": 63342
+            },
+            "state": "LISTEN",
+            "pid": 2534,
+            "processName": "java"
+        },
+        "timestamp": 1583508123
+    },
+    "Payload 2": {
+        "version": "1.1",
+        "host": "dev",
+        "short_message": "dev Netstat From GRR",
+        "full_message": {
+            "family": "INET",
+            "type": "SOCK_STREAM",
+            "localAddress": {
+                "ip": "127.0.0.1",
+                "port": 6942
+            },
+            "state": "LISTEN",
+            "pid": 2534,
+            "processName": "java"
+        },
+        "timestamp": 1583508123
+    },
+    "Payload 3": {
+        "version": "1.1",
+        "host": "dev",
+        "short_message": "dev Netstat From GRR",
+        "full_message": {
+            "family": "INET",
+            "type": "SOCK_STREAM",
+            "localAddress": {
+                "ip": "127.0.0.1",
+                "port": 49722
+            },
+            "remoteAddress": {
+                "ip": "127.0.0.1",
+                "port": 9000
+            },
+            "state": "ESTABLISHED",
+            "pid": 4479,
+            "processName": "firefox"
+        },
+        "timestamp": 1583508123
+    },
+    "Payload 4": {
+        "version": "1.1",
+        "host": "dev",
+        "short_message": "dev Netstat From GRR",
+        "full_message": {
+            "family": "INET",
+            "type": "SOCK_STREAM",
+            "localAddress": {
+                "ip": "192.168.177.153",
+                "port": 43996
+            },
+            "remoteAddress": {
+                "ip": "52.42.202.210",
+                "port": 443
+            },
+            "state": "ESTABLISHED",
+            "pid": 4479,
+            "processName": "firefox"
+        },
+        "timestamp": 1583508123
+    },
+    "Payload 5": {
+        "version": "1.1",
+        "host": "dev",
+        "short_message": "dev Netstat From GRR",
+        "full_message": {
+            "family": "INET",
+            "type": "SOCK_STREAM",
+            "localAddress": {
+                "ip": "127.0.0.1",
+                "port": 49792
+            },
+            "remoteAddress": {
+                "ip": "127.0.0.1",
+                "port": 9000
+            },
+            "state": "ESTABLISHED",
+            "pid": 4479,
+            "processName": "firefox"
+        },
+        "timestamp": 1583508123
+    },
+    "Payload 6": {
+        "version": "1.1",
+        "host": "dev",
+        "short_message": "dev Netstat From GRR",
+        "full_message": {
+            "family": "INET",
+            "type": "SOCK_STREAM",
+            "localAddress": {
+                "ip": "127.0.0.1",
+                "port": 49824
+            },
+            "remoteAddress": {
+                "ip": "127.0.0.1",
+                "port": 9000
+            },
+            "state": "ESTABLISHED",
+            "pid": 4479,
+            "processName": "firefox"
+        },
+        "timestamp": 1583508123
+    },
+    "Payload 7": {
+        "version": "1.1",
+        "host": "dev",
+        "short_message": "dev Netstat From GRR",
+        "full_message": {
+            "family": "INET6",
+            "type": "SOCK_STREAM",
+            "localAddress": {
+                "ip": "::",
+                "port": 8080
+            },
+            "state": "LISTEN",
+            "pid": 18238,
+            "processName": "grr_frontend"
+        },
+        "timestamp": 1583508123
+    },
+    "Payload 8": {
+        "version": "1.1",
+        "host": "dev",
+        "short_message": "dev Netstat From GRR",
+        "full_message": {
+            "family": "INET6",
+            "type": "SOCK_STREAM",
+            "localAddress": {
+                "ip": "::",
+                "port": 8000
+            },
+            "state": "LISTEN",
+            "pid": 18240,
+            "processName": "grr_admin_ui"
+        },
+        "timestamp": 1583508123
+    }
+}

@@ -1,0 +1,358 @@
+{
+    "Event 1": {
+        "time": 1583461734,
+        "host": "ubuntu",
+        "event": {
+            "client": {
+                "clientUrn": "aff4:/C.485177676ad968ac",
+                "hostname": "ubuntu",
+                "os": "Linux",
+                "clientAge": "1583447758903733",
+                "uname": "Linux-Ubuntu-18.04",
+                "osRelease": "Ubuntu",
+                "osVersion": "18.04",
+                "usernames": "jake",
+                "macAddress": "000c294ae905\n024290298fe6",
+                "labels": "",
+                "hardwareInfo": {},
+                "kernelVersion": "5.3.0-40-generic",
+                "systemLabels": "",
+                "userLabels": ""
+            },
+            "flow": {
+                "urn": "aff4:/C.485177676ad968ac/EBE3C678",
+                "name": "Netstat",
+                "args": {
+                    "@type": "type.googleapis.com/NetstatArgs"
+                },
+                "runnerArgs": {
+                    "notifyToUser": true,
+                    "clientId": "aff4:/C.485177676ad968ac",
+                    "flowName": "Netstat",
+                    "outputPlugins": [
+                        {
+                            "pluginName": "GELFOutputPlugin",
+                            "pluginArgs": ""
+                        }
+                    ]
+                },
+                "state": "RUNNING",
+                "startedAt": "1583461710215733",
+                "lastActiveAt": "1583461734731971",
+                "creator": "admin",
+                "flowId": "EBE3C678",
+                "clientId": "C.485177676ad968ac"
+            },
+            "resultType": "NetworkConnection",
+            "result": {
+                "family": "INET",
+                "type": "SOCK_STREAM",
+                "localAddress": {
+                    "ip": "127.0.0.1",
+                    "port": 6942
+                },
+                "state": "LISTEN",
+                "pid": 2283,
+                "processName": "java"
+            }
+        }
+    },
+    "Event 2": {
+        "time": 1583461734,
+        "host": "ubuntu",
+        "event": {
+            "client": {
+                "clientUrn": "aff4:/C.485177676ad968ac",
+                "hostname": "ubuntu",
+                "os": "Linux",
+                "clientAge": "1583447758903733",
+                "uname": "Linux-Ubuntu-18.04",
+                "osRelease": "Ubuntu",
+                "osVersion": "18.04",
+                "usernames": "jake",
+                "macAddress": "000c294ae905\n024290298fe6",
+                "labels": "",
+                "hardwareInfo": {},
+                "kernelVersion": "5.3.0-40-generic",
+                "systemLabels": "",
+                "userLabels": ""
+            },
+            "flow": {
+                "urn": "aff4:/C.485177676ad968ac/EBE3C678",
+                "name": "Netstat",
+                "args": {
+                    "@type": "type.googleapis.com/NetstatArgs"
+                },
+                "runnerArgs": {
+                    "notifyToUser": true,
+                    "clientId": "aff4:/C.485177676ad968ac",
+                    "flowName": "Netstat",
+                    "outputPlugins": [
+                        {
+                            "pluginName": "GELFOutputPlugin",
+                            "pluginArgs": ""
+                        }
+                    ]
+                },
+                "state": "RUNNING",
+                "startedAt": "1583461710215733",
+                "lastActiveAt": "1583461734731971",
+                "creator": "admin",
+                "flowId": "EBE3C678",
+                "clientId": "C.485177676ad968ac"
+            },
+            "resultType": "NetworkConnection",
+            "result": {
+                "family": "INET",
+                "type": "SOCK_STREAM",
+                "localAddress": {
+                    "ip": "127.0.0.1",
+                    "port": 63342
+                },
+                "state": "LISTEN",
+                "pid": 2283,
+                "processName": "java"
+            }
+        }
+    },
+    "Event 3": {
+        "time": 1583461734,
+        "host": "ubuntu",
+        "event": {
+            "client": {
+                "clientUrn": "aff4:/C.485177676ad968ac",
+                "hostname": "ubuntu",
+                "os": "Linux",
+                "clientAge": "1583447758903733",
+                "uname": "Linux-Ubuntu-18.04",
+                "osRelease": "Ubuntu",
+                "osVersion": "18.04",
+                "usernames": "jake",
+                "macAddress": "000c294ae905\n024290298fe6",
+                "labels": "",
+                "hardwareInfo": {},
+                "kernelVersion": "5.3.0-40-generic",
+                "systemLabels": "",
+                "userLabels": ""
+            },
+            "flow": {
+                "urn": "aff4:/C.485177676ad968ac/EBE3C678",
+                "name": "Netstat",
+                "args": {
+                    "@type": "type.googleapis.com/NetstatArgs"
+                },
+                "runnerArgs": {
+                    "notifyToUser": true,
+                    "clientId": "aff4:/C.485177676ad968ac",
+                    "flowName": "Netstat",
+                    "outputPlugins": [
+                        {
+                            "pluginName": "GELFOutputPlugin",
+                            "pluginArgs": ""
+                        }
+                    ]
+                },
+                "state": "RUNNING",
+                "startedAt": "1583461710215733",
+                "lastActiveAt": "1583461734731971",
+                "creator": "admin",
+                "flowId": "EBE3C678",
+                "clientId": "C.485177676ad968ac"
+            },
+            "resultType": "NetworkConnection",
+            "result": {
+                "family": "INET",
+                "type": "SOCK_STREAM",
+                "localAddress": {
+                    "ip": "192.168.177.153",
+                    "port": 39520
+                },
+                "remoteAddress": {
+                    "ip": "52.34.225.215",
+                    "port": 443
+                },
+                "state": "ESTABLISHED",
+                "pid": 3118,
+                "processName": "firefox"
+            }
+        }
+    },
+    "Event 4": {
+        "time": 1583461734,
+        "host": "ubuntu",
+        "event": {
+            "client": {
+                "clientUrn": "aff4:/C.485177676ad968ac",
+                "hostname": "ubuntu",
+                "os": "Linux",
+                "clientAge": "1583447758903733",
+                "uname": "Linux-Ubuntu-18.04",
+                "osRelease": "Ubuntu",
+                "osVersion": "18.04",
+                "usernames": "jake",
+                "macAddress": "000c294ae905\n024290298fe6",
+                "labels": "",
+                "hardwareInfo": {},
+                "kernelVersion": "5.3.0-40-generic",
+                "systemLabels": "",
+                "userLabels": ""
+            },
+            "flow": {
+                "urn": "aff4:/C.485177676ad968ac/EBE3C678",
+                "name": "Netstat",
+                "args": {
+                    "@type": "type.googleapis.com/NetstatArgs"
+                },
+                "runnerArgs": {
+                    "notifyToUser": true,
+                    "clientId": "aff4:/C.485177676ad968ac",
+                    "flowName": "Netstat",
+                    "outputPlugins": [
+                        {
+                            "pluginName": "GELFOutputPlugin",
+                            "pluginArgs": ""
+                        }
+                    ]
+                },
+                "state": "RUNNING",
+                "startedAt": "1583461710215733",
+                "lastActiveAt": "1583461734731971",
+                "creator": "admin",
+                "flowId": "EBE3C678",
+                "clientId": "C.485177676ad968ac"
+            },
+            "resultType": "NetworkConnection",
+            "result": {
+                "family": "INET",
+                "type": "SOCK_DGRAM",
+                "localAddress": {
+                    "ip": "127.0.0.1",
+                    "port": 35022
+                },
+                "remoteAddress": {
+                    "ip": "127.0.0.53",
+                    "port": 53
+                },
+                "state": "NONE",
+                "pid": 3314,
+                "processName": "code"
+            }
+        }
+    },
+    "Event 5": {
+        "time": 1583461734,
+        "host": "ubuntu",
+        "event": {
+            "client": {
+                "clientUrn": "aff4:/C.485177676ad968ac",
+                "hostname": "ubuntu",
+                "os": "Linux",
+                "clientAge": "1583447758903733",
+                "uname": "Linux-Ubuntu-18.04",
+                "osRelease": "Ubuntu",
+                "osVersion": "18.04",
+                "usernames": "jake",
+                "macAddress": "000c294ae905\n024290298fe6",
+                "labels": "",
+                "hardwareInfo": {},
+                "kernelVersion": "5.3.0-40-generic",
+                "systemLabels": "",
+                "userLabels": ""
+            },
+            "flow": {
+                "urn": "aff4:/C.485177676ad968ac/EBE3C678",
+                "name": "Netstat",
+                "args": {
+                    "@type": "type.googleapis.com/NetstatArgs"
+                },
+                "runnerArgs": {
+                    "notifyToUser": true,
+                    "clientId": "aff4:/C.485177676ad968ac",
+                    "flowName": "Netstat",
+                    "outputPlugins": [
+                        {
+                            "pluginName": "GELFOutputPlugin",
+                            "pluginArgs": ""
+                        }
+                    ]
+                },
+                "state": "RUNNING",
+                "startedAt": "1583461710215733",
+                "lastActiveAt": "1583461734731971",
+                "creator": "admin",
+                "flowId": "EBE3C678",
+                "clientId": "C.485177676ad968ac"
+            },
+            "resultType": "NetworkConnection",
+            "result": {
+                "family": "INET6",
+                "type": "SOCK_STREAM",
+                "localAddress": {
+                    "ip": "::",
+                    "port": 8080
+                },
+                "state": "LISTEN",
+                "pid": 4209,
+                "processName": "grr_frontend"
+            }
+        }
+    },
+    "Event 6": {
+        "time": 1583461734,
+        "host": "ubuntu",
+        "event": {
+            "client": {
+                "clientUrn": "aff4:/C.485177676ad968ac",
+                "hostname": "ubuntu",
+                "os": "Linux",
+                "clientAge": "1583447758903733",
+                "uname": "Linux-Ubuntu-18.04",
+                "osRelease": "Ubuntu",
+                "osVersion": "18.04",
+                "usernames": "jake",
+                "macAddress": "000c294ae905\n024290298fe6",
+                "labels": "",
+                "hardwareInfo": {},
+                "kernelVersion": "5.3.0-40-generic",
+                "systemLabels": "",
+                "userLabels": ""
+            },
+            "flow": {
+                "urn": "aff4:/C.485177676ad968ac/EBE3C678",
+                "name": "Netstat",
+                "args": {
+                    "@type": "type.googleapis.com/NetstatArgs"
+                },
+                "runnerArgs": {
+                    "notifyToUser": true,
+                    "clientId": "aff4:/C.485177676ad968ac",
+                    "flowName": "Netstat",
+                    "outputPlugins": [
+                        {
+                            "pluginName": "GELFOutputPlugin",
+                            "pluginArgs": ""
+                        }
+                    ]
+                },
+                "state": "RUNNING",
+                "startedAt": "1583461710215733",
+                "lastActiveAt": "1583461734731971",
+                "creator": "admin",
+                "flowId": "EBE3C678",
+                "clientId": "C.485177676ad968ac"
+            },
+            "resultType": "NetworkConnection",
+            "result": {
+                "family": "INET6",
+                "type": "SOCK_STREAM",
+                "localAddress": {
+                    "ip": "::",
+                    "port": 8000
+                },
+                "state": "LISTEN",
+                "pid": 4211,
+                "processName": "grr_admin_ui"
+            }
+        }
+    }
+}

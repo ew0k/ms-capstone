@@ -1,0 +1,121 @@
+{
+    "Event 1": {
+        "time": 1583462056,
+        "host": "ubuntu",
+        "event": {
+            "client": {
+                "clientUrn": "aff4:/C.485177676ad968ac",
+                "hostname": "ubuntu",
+                "os": "Linux",
+                "clientAge": "1583447758903733",
+                "uname": "Linux-Ubuntu-18.04",
+                "osRelease": "Ubuntu",
+                "osVersion": "18.04",
+                "usernames": "jake",
+                "macAddress": "000c2960cf7c\n0242cb96b57a",
+                "labels": "",
+                "hardwareInfo": {},
+                "kernelVersion": "5.3.0-40-generic",
+                "systemLabels": "",
+                "userLabels": ""
+            },
+            "flow": {
+                "urn": "aff4:/C.485177676ad968ac/AA549D04",
+                "name": "Interrogate",
+                "args": {
+                    "@type": "type.googleapis.com/InterrogateArgs"
+                },
+                "runnerArgs": {
+                    "notifyToUser": true,
+                    "clientId": "aff4:/C.485177676ad968ac",
+                    "flowName": "Interrogate",
+                    "outputPlugins": [
+                        {
+                            "pluginName": "GELFOutputPlugin",
+                            "pluginArgs": ""
+                        }
+                    ]
+                },
+                "state": "RUNNING",
+                "startedAt": "1583461997447446",
+                "lastActiveAt": "1583462056235993",
+                "creator": "admin",
+                "flowId": "AA549D04",
+                "clientId": "C.485177676ad968ac"
+            },
+            "resultType": "ClientSummary",
+            "result": {
+                "clientId": "aff4:/C.485177676ad968ac",
+                "timestamp": "1583462056243997",
+                "systemInfo": {
+                    "system": "Linux",
+                    "release": "Ubuntu",
+                    "version": "18.4",
+                    "machine": "x86_64",
+                    "kernel": "5.3.0-40-generic",
+                    "fqdn": "ubuntu",
+                    "installDate": "1576218912000000"
+                },
+                "clientInfo": {
+                    "clientName": "GRR",
+                    "clientVersion": 3401,
+                    "buildTime": "Unknown",
+                    "clientDescription": "GRR linux amd64",
+                    "clientBinaryName": "grr_client"
+                },
+                "interfaces": [
+                    {
+                        "macAddress": "AkLLlrV6",
+                        "ifname": "docker0",
+                        "addresses": [
+                            {
+                                "addressType": "INET",
+                                "packedBytes": "rBEAAQ=="
+                            }
+                        ]
+                    },
+                    {
+                        "macAddress": "AAwpYM98",
+                        "ifname": "ens33",
+                        "addresses": [
+                            {
+                                "addressType": "INET",
+                                "packedBytes": "wKixmQ=="
+                            },
+                            {
+                                "addressType": "INET6",
+                                "packedBytes": "/oAAAAAAAAC7kboXSPEr1A=="
+                            }
+                        ]
+                    },
+                    {
+                        "macAddress": "AAAAAAAA",
+                        "ifname": "lo",
+                        "addresses": [
+                            {
+                                "addressType": "INET",
+                                "packedBytes": "fwAAAQ=="
+                            },
+                            {
+                                "addressType": "INET6",
+                                "packedBytes": "AAAAAAAAAAAAAAAAAAAAAQ=="
+                            }
+                        ]
+                    }
+                ],
+                "users": [
+                    {
+                        "username": "jake",
+                        "lastLogon": "1583460448000000",
+                        "fullName": "jake,,,",
+                        "homedir": "/home/jake",
+                        "uid": 1000,
+                        "gid": 1000,
+                        "shell": "/bin/bash"
+                    }
+                ],
+                "lastPing": "1583462056243997"
+            }
+        }
+    }
+}

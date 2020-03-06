@@ -1,0 +1,32 @@
+{
+   "version": "1.1",
+   "host": "ubuntu",
+   "short_message": "ubuntu ListProcesses From GRR",
+   "full_message": {
+      "pid": 631,
+      "ppid": 1,
+      "name": "VGAuthService",
+      "exe": "/usr/bin/VGAuthService",
+      "cmdline": [
+         "/usr/bin/VGAuthService"
+      ],
+      "ctime": "1583460435790000",
+      "realUid": 0,
+      "effectiveUid": 0,
+      "savedUid": 0,
+      "realGid": 0,
+      "effectiveGid": 0,
+      "savedGid": 0,
+      "username": "root",
+      "terminal": "None",
+      "status": "sleeping",
+      "nice": 0,
+      "numThreads": 1,
+      "userCpuTime": 0,
+      "systemCpuTime": 0.08,
+      "RSSSize": "7225344",
+      "VMSSize": "90337280",
+      "memoryPercent": 0.086844146
+   },
+   "timestamp": 1583472884
+}
