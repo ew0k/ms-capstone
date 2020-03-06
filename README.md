@@ -1,2 +1,2 @@
-# ms-capstone-tmp
-Temporary spot for code related to my MS Capstone
+# ms-capstone
+These files assist with my capstone but do not belong in my grr fork
