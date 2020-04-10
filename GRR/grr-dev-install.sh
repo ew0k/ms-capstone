@@ -2,8 +2,8 @@ sudo apt-get update
 
 # Step 1
 git clone git@github.com:syth3/grr.git
-git checkout git checkout --track origin/gelf-output-plugin
 cd grr/
+git checkout --track origin/gelf-output-plugin
 
 # Step 2
 sudo apt-get install virtualenv -y
@@ -36,8 +36,6 @@ pip install --no-cache-dir -f https://storage.googleapis.com/releases.grr-respon
 sudo apt-get install mysql-server -y
 
 # Step 9
-grr_config_updater initialize
-
 ## MySQL Commands
 # sudo mysql -u root -p
 # CREATE DATABASE grr;
@@ -47,3 +45,6 @@ grr_config_updater initialize
 
 ## See ports running on Ubuntu Host
 # sudo lsof -i -P -n
+
+# Step 10
+grr_config_updater initialize
