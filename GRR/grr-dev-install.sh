@@ -1,7 +1,8 @@
 sudo apt-get update
 
 # Step 1
-git clone https://github.com/ew0k/grr.git
+git clone git@github.com:syth3/grr.git
+git checkout git checkout --track origin/gelf-output-plugin
 cd grr/
 
 # Step 2
